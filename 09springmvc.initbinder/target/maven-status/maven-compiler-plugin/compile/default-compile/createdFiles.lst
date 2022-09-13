@@ -1,0 +1,15 @@
+com\springmvc\api\UserInfoDTO.class
+com\springmvc\controller\RegisterController.class
+com\springmvc\api\FacturaDTO.class
+com\springmvc\api\UserRegisterDTO.class
+com\springmvc\validator\AgeValidator.class
+com\springmvc\api\Telefono.class
+com\springmvc\api\TelefonoFormatter.class
+com\springmvc\configuracion\ConfigClass.class
+com\springmvc\controller\BillController.class
+com\springmvc\controller\TestController.class
+com\springmvc\configuracion\ConfigApp.class
+com\springmvc\validator\Age.class
+com\springmvc\api\UserContactDTO.class
+com\springmvc\controller\AppController.class
+com\springmvc\configuracion\ConfigClass2.class

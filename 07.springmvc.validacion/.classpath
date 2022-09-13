@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="07.springmvc.validacion/src/main/java"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/asm-9.2.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/hibernate-validator-6.2.0.Final.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/jakarta.validation-api-2.0.2.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/jboss-logging-3.4.1.Final.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/maven-shared-incremental-1.1.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/maven-shared-utils-3.3.4.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/plexus-compiler-api-2.11.1.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/plexus-compiler-javac-2.11.1.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/plexus-compiler-manager-2.11.1.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/plexus-component-annotations-1.5.5.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/plexus-java-1.1.1.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/plexus-utils-3.4.1.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/qdox-2.0.1.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/spring-aop-5.3.22.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/spring-beans-5.3.22.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/spring-context-5.3.22.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/spring-core-5.3.22.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/spring-expression-5.3.22.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/spring-jcl-5.3.22.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/spring-web-5.3.22.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/spring-webmvc-5.3.22.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/standard-1.1.2.jar"/>
+	<classpathentry kind="lib" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/lib/validation-api-2.0.1.Final.jar"/>
+	<classpathentry kind="output" path="07.springmvc.validacion/target/04springmvc.comenzando/WEB-INF/classes"/>
+</classpath>
