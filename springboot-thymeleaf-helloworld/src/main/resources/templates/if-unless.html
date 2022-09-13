@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<!--  <link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">-->
+<link th:href = "@{/css/bootstrap-min.css}" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<table class = "table table-responsive table-bordered ">
+					<thead>
+						<tr >
+							<th>Usuario</th>
+							<th>Email</th>							
+					</thead>
+					<tbody>
+						<tr th:each="user: ${lista}">
+							<td th:text = "${user.userName}"></td>
+							<td th:text = "${user.email}"></td>		
+							<td><a class="btn btn-primary" th:if="${user.role} == 'ADMIN'">Update</a>
+							<a class="btn btn-danger"  th:if="${user.role} == 'ADMIN'">Delete</a>
+							<a class="btn btn-primary" th:unless="${user.role} == 'ADMIN'">View</a>	</td>				
+						</tr>					
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

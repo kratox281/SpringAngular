@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<!--  <link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">-->
+<link th:href="@{/css/bootstrap-min.css}" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container">
+	
+			<h1>Thymeleaf switch case demo</h1>
+			<br>
+			<h4 th:text="${user.userName}"></h4>
+			<br>
+			<div th:switch="${user.role}">
+				<p th:case="'ADMIN'">Este usuario es administrador</p>
+				<p th:case="'MANAGER'">Este usuario es manager</p>
+				<p th:case="'GUEST'">Este usuario es invitado</p>
+				<p th:case="*">Quien es este usuario?</p>
+			</div>
+
+		
+	</div>
+</body>
+</html>
