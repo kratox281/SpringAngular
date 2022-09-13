@@ -1,0 +1,11 @@
+Si quiero que algo funcione vaya dentro de com.example.demo
+Si no estaría fuera del escaneo de Spring
+En el application properties es como el web xml pero mucho más comodo
+
+Es recomendable que en la insercion de datos para que no se limpien en la entrada al servidor 
+te mande a otra pagina o siga el patronaje de get post get
+
+Para los mensajes personalizados del logger es recomendable poner alguna marca para saber si lo manda tu codigo o el propio servidor
+
+jpa = java persistance api
+

@@ -5,3 +5,4 @@ por defecto es false pero hay que ponerlo igualmente
 Una notacion es una interfaz con una @ delante
 En spring cualquier objeto se le puede denominar como un bean con un @
 en el nombre de la clase si copias qualified name obtienes el nombre y la ruta
+ 

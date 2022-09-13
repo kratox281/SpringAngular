@@ -12,4 +12,4 @@ Todos los proyectos de Spring tienen como base un proyecto Maven
  Hay que hacer clean,e install de maven con el proyecto
 el web.xml define las propiedades del programa
 el pom las propiedades del proyecto
-
+ 
