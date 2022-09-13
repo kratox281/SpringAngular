@@ -1,0 +1,6 @@
+com\springmvc\controller\RegisterController.class
+com\springmvc\configuracion\ConfigApp.class
+com\springmvc\api\UserRegisterDTO.class
+com\springmvc\controller\AppController.class
+com\springmvc\api\UserInfoDTO.class
+com\springmvc\configuracion\ConfigClass2.class

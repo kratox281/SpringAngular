@@ -1,0 +1,79 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app id="webapp"  >
+ 
+  
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <context-param>  
+    <param-name>parametername</param-name>  
+    <param-value>parametervalue</param-value>  
+  </context-param>
+  
+  
+   
+  <filter>
+  	<filter-name>PrimeroFilter</filter-name>
+  	<display-name>PrimeroFilter</display-name>
+  	<description></description>
+  	<filter-class>com.filters.PrimeroFilter</filter-class>
+  </filter>
+  <filter>
+  	<filter-name>SegundoFilter</filter-name>
+  	<display-name>SegundoFilter</display-name>
+  	<description></description>
+  	<filter-class>com.filters.SegundoFilter</filter-class>
+  </filter>
+  <filter>
+  	<filter-name>TercerFiltro</filter-name>
+  	<display-name>TercerFiltro</display-name>
+  	<description></description>
+  	<filter-class>com.filters.TercerFiltro</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>TercerFiltro</filter-name>
+  	<url-pattern>/uno</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+  	<filter-name>PrimeroFilter</filter-name>
+  	<url-pattern>/uno</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+  	<filter-name>SegundoFilter</filter-name>
+  	<url-pattern>/uno</url-pattern>
+  </filter-mapping>
+  
+  
+  
+  <servlet>
+  	<servlet-name>EntradaController</servlet-name>
+  	<display-name>EntradaController</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.EntradaController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UnoController</servlet-name>
+  	<display-name>UnoController</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.UnoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EntradaController</servlet-name>
+  	<url-pattern>/EntradaController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UnoController</servlet-name>
+  	<url-pattern>/UnoController</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  <welcome-file>EntradaController</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+   
+  
+</web-app>

@@ -1,0 +1,17 @@
+Spring puede hacer el autowire a traves del nombre ,tipo o constructor.
+Para vincular por nombre el nombre de la clase en el bean ha de ser el mismo que 
+el del bean.
+Para los beans es importante tener un constructor por defecto.
+Se puede especificar que ejecute un metodo al inicio de vida y al final de la misma,
+poniendo initMethod="~metodo~" y con metodo final con destroy.
+
+Qualifier es para recomendar
+Primary es para que la ponga si o si
+y si no la escoge el propio.
+
+Lo óptimo es no dejar ambigüedad para evitar errores por "tonto".
+
+
+A los metodos en Spring son request handlers
+
+

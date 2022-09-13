@@ -1,0 +1,15 @@
+Primero que nada instalar todo lo necesario
+La dependencia es negativa.
+Importante la cohesion entre las clases y metodos
+No hay ningún problema con crear muchos metodos pequeños para 
+ poder matener la limpieza, reutilización.
+Implementación y creación principal diferencia es tiempo de vida del objeto acoplado.
+Es importante el uso de las interfaces.
+contexto
+instancia a una aplicacion dada por el servidor.
+Las cookies son ficheros que almacenan todo.
+Todos los proyectos de Spring tienen como base un proyecto Maven
+ Hay que hacer clean,e install de maven con el proyecto
+el web.xml define las propiedades del programa
+el pom las propiedades del proyecto
+

@@ -1,0 +1,5 @@
+com\filters\PrimeroFilter.class
+com\controllers\EntradaController.class
+com\filters\SegundoFilter.class
+com\controllers\UnoController.class
+com\filters\TercerFiltro.class
